@@ -1,0 +1,10 @@
+Real-time End-to-end DevOps project: Deploying an EKS Cluster with Terraform and Jenkins.
+
+EKS: elastic kubernetes services 
+It is a managed services by aws
+  here master node is managed by AWS and  there would be multiple workner nodes on which our applications were running .
+As a customer we are going to create or manage these nodes .
+
+Terraform: 
+ It is an IAC tool ( infrastructure as a code tool)
+It means if u want to create any resource like EC2, VPC, EKS CLUSter on any cloud platform  like aws, azure we will directly create but if u want to configure them in as code then we will use terrform 
