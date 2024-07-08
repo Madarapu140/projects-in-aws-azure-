@@ -8,3 +8,10 @@ As a customer we are going to create or manage these nodes .
 Terraform: 
  It is an IAC tool ( infrastructure as a code tool)
 It means if u want to create any resource like EC2, VPC, EKS CLUSter on any cloud platform  like aws, azure we will directly create but if u want to configure them in as code then we will use terrform 
+
+JENKINS:
+ It is a CICD tool .
+Basically in SDLC  where we have multiple stages where our code goes through that first we will write the code,we will build it, we will test the code and deploy so these were the multiple stages of SDLC , in this case all of these were automated with help of Jenkins .
+
+In this project first we will develop the Teraform code ,once the terraform code is ready we will be pushing to github repository then this github repository is going to trigger Jenkins pipeline then this jenkins pipeline is going to deploy the changes on AWS cloud platform ,thus the cloud platform will create EKS cluster with the help of terraform all these thing swere going to happen one-by-one n seekuence .
+
