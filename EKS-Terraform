@@ -30,4 +30,16 @@ stteps:
 a)create a project in github
 b)clone the repo to localmachine using
    git clone <url>
-c) 
+  git add .
+  git push -u origin "main"
+
+
+data.tf file i,e data sources we are going to use  fetching the AMIs , AMi are aaalready present and you just need to fetch 
+
+userdata is something thatexecutes or its an files that gets execute when ec2 instance is launched and stat running 
+
+Why use Terraform fmt?
+The terraform fmt command is used to rewrite Terraform configuration files to a canonical format and style
+
+
+
