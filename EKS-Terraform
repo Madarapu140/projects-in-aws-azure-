@@ -15,3 +15,19 @@ Basically in SDLC  where we have multiple stages where our code goes through tha
 
 In this project first we will develop the Teraform code ,once the terraform code is ready we will be pushing to github repository then this github repository is going to trigger Jenkins pipeline then this jenkins pipeline is going to deploy the changes on AWS cloud platform ,thus the cloud platform will create EKS cluster with the help of terraform all these thing swere going to happen one-by-one n seekuence .
 
+Process :
+Here we are going to create EC2 instance and on top of it we will install jenkins ,so this process is some thing manual but we are going to do with help of terraform then after we are going to create EKS cluster , who is going to create the EKS cluster for this particular jenkins is going to trigger a pipleine and create an EKS cluster for us.
+
+stteps:
+ 1. create an EC2 instance and deploy jenkins on it .
+ 2. write terraform code for EKS cluster 
+  3.now once the terraform code is ready then we are going to do is push the code on github
+4.we are going to create jenkins pipeline ,which is going to deploy an EKS cluster 
+5. Deploy the changes to AWS 
+6. THne we are going to implement the deployment file with help of kubectl which will deploy an NGINX applicatiomn on EKS cluster and will be accessing it application with help of load balncer 
+
+
+a)create a project in github
+b)clone the repo to localmachine using
+   git clone <url>
+c) 
